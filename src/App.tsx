@@ -60,8 +60,8 @@ function App() {
         }
         {toShow&& 
             <div className='flex-1 flex items-center mx-auto top-5'>
-              <div className='flex place-items-center justify-center absolute w-12 h-12 rounded-full cursor-pointer bg-orange-400 hover:bg-orange-500 duration-300' onClick={handleBackButton}>
-                <img src={backImage} alt="" width={25}/>
+              <div className='flex place-items-center justify-center absolute mb-28 md:mb-0 md:w-14 md:h-14 w-10 h-10 rounded-full cursor-pointer bg-orange-400 hover:bg-orange-500 duration-300' onClick={handleBackButton}>
+                <img src={backImage} alt="" width={23}/>
               </div>
               <Grid item={toShow}/>
             </div>

@@ -8,7 +8,7 @@ type props = {
 
 export const Grid = ({item}: props) =>{
     return (
-        <div className='bg-color rounded-xl mx-auto text-center flex flex-col p-5 w-72 md:w-40 justify-center lg:w-auto' style = {{backgroundColor: item.color}}>
+        <div className='bg-color rounded-xl mx-auto text-center flex flex-1 flex-col p-5 h-full w-full md:w-40 justify-center lg:w-auto' style = {{backgroundColor: item.color}}>
             <div className='flex justify-center items-center'>
                 <img className='w-8' src={item.icon === 'down' ? downImg : upImg} alt="" />
             </div>
