@@ -14,7 +14,7 @@
 
 IMC Calculator
 
-## Demonstration
+## Preview
 
 <img src='./src/assets/demo.gif'/>
 
@@ -40,10 +40,10 @@ $ git clone https://github.com/Vinnissaum/react-imc-calc
 $ cd react-imc-calc
 
 # Install dependencies
-$ yarn
+$ npm install
 
 # Run the project
-$ yarn start
+$ npm run dev
 
 # The server will initialize in the <http://localhost:3000>
 ```
